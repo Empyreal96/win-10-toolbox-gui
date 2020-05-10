@@ -8,3 +8,13 @@ C:\Users\mrfloaty\source\repos\ToolboxTest\obj\Debug\ToolboxTest.csproj.Generate
 C:\Users\mrfloaty\source\repos\ToolboxTest\obj\Debug\ToolboxTest.csproj.CoreCompileInputs.cache
 C:\Users\mrfloaty\source\repos\ToolboxTest\obj\Debug\ToolboxTest.exe
 C:\Users\mrfloaty\source\repos\ToolboxTest\obj\Debug\ToolboxTest.pdb
+C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\bin\Debug\ToolboxTest.exe.config
+C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\bin\Debug\ToolboxTest.exe
+C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\bin\Debug\ToolboxTest.pdb
+C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\obj\Debug\ToolboxTest.csprojAssemblyReference.cache
+C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\obj\Debug\ToolboxTest.Form1.resources
+C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\obj\Debug\ToolboxTest.Properties.Resources.resources
+C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\obj\Debug\ToolboxTest.csproj.GenerateResource.cache
+C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\obj\Debug\ToolboxTest.csproj.CoreCompileInputs.cache
+C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\obj\Debug\ToolboxTest.exe
+C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\obj\Debug\ToolboxTest.pdb
