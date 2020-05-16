@@ -117,3 +117,4 @@ C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\bin\Debug\assets\7\Setting
 C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\bin\Debug\assets\7\SettingsMisc\ResetViews.bat
 C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\bin\Debug\assets\7\SettingsMisc\NoAdmin.bat
 C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\bin\Debug\assets\7\SettingsMisc\YesAdmin.bat
+C:\Users\mrfloaty\Documents\GitHub\win-10-toolbox-gui\obj\Debug\ToolboxTest.csprojAssemblyReference.cache
