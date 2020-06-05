@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Win32;
 
 namespace ToolboxTest
 {
@@ -95,8 +96,13 @@ namespace ToolboxTest
 
         private void YesAutoHourButton_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(@"assets\1\AutoHoursOn.bat");
-        }
+            System.Diagnostics.Process.Start(@"assets\1\AutoHoursOn.reg");
+            //Old Command
+                //New Command
+                //RegistryKey key = Registry.LocalMachine.OpenSubKey(@"Software\Microsoft\WindowsUpdate\UX\Settings", true);
+                //key.SetValue("SmartActiveHoursState", "1", RegistryValueKind.DWord);
+                //key.Close();
+            }
 
         private void NoAutoHourButton_Click(object sender, EventArgs e)
         {
@@ -574,6 +580,52 @@ namespace ToolboxTest
         private void FastBootOffButton_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start(@"assets\7\SettingsMisc\NoFastBoot.bat");
+        }
+
+        private void dismScanButton_Click(object sender, EventArgs e)
+        {
+            //System.Diagnostics.Process.Start(@"assets\5\DISMScan.bat");
+            Process process = new Process();
+            const string Up = "./assets/5/DISMScan.bat";
+            process.StartInfo.CreateNoWindow = true;
+            process.StartInfo.FileName = Up;
+            process.StartInfo.UseShellExecute = false;
+            process.StartInfo.RedirectStandardOutput = true;
+            //process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            process.Start();
+            DismOutput.Text = process.StandardOutput.ReadToEnd();
+            process.WaitForExit();
+
+        }
+
+        private void dismFixButton_Click(object sender, EventArgs e)
+        {
+            Process process = new Process();
+            const string Up = "./assets/5/DISMFix.bat";
+            process.StartInfo.FileName = Up;
+            process.StartInfo.UseShellExecute = false;
+            process.StartInfo.RedirectStandardOutput = true;
+            process.Start();
+            DismOutput.Text = process.StandardOutput.ReadToEnd();
+            process.WaitForExit();
+        }
+
+        private void sfcscanButton_Click(object sender, EventArgs e)
+        {
+            //Process process = new Process();
+            //const string Up = "C:\\Windows\\System32\\";
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            startInfo.CreateNoWindow = false;
+            startInfo.UseShellExecute = false;
+            startInfo.FileName = "sfc.exe";
+            startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            startInfo.Arguments = "/Scannow";
+            startInfo.RedirectStandardOutput = true;
+            using (Process exeProcess = Process.Start(startInfo))
+            {
+                SFCOutput.Text = exeProcess.StandardOutput.ReadToEnd();
+                exeProcess.WaitForExit();
+            }
         }
     }
 }

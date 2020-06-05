@@ -50,10 +50,6 @@
             this.AutoDriverOnOff = new System.Windows.Forms.TextBox();
             this.YesAutoDriverButton = new System.Windows.Forms.Button();
             this.NoAutoDriverButton = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.AutoHoursonoff = new System.Windows.Forms.TextBox();
-            this.YesAutoHourButton = new System.Windows.Forms.Button();
-            this.NoAutoHourButton = new System.Windows.Forms.Button();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.AutoMaintOnOff = new System.Windows.Forms.TextBox();
             this.YesAutoMaintButton = new System.Windows.Forms.Button();
@@ -148,7 +144,7 @@
             this.dismFixButton = new System.Windows.Forms.Button();
             this.sfcfixButton = new System.Windows.Forms.Button();
             this.DismOutput = new System.Windows.Forms.RichTextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.SFCOutput = new System.Windows.Forms.RichTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.OpenSysRestore = new System.Windows.Forms.Button();
             this.OpenResetPC = new System.Windows.Forms.Button();
@@ -328,7 +324,6 @@
             this.panel13.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.UpdateOverFlow.SuspendLayout();
             this.SearchTab.SuspendLayout();
@@ -548,7 +543,6 @@
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel13.Controls.Add(this.flowLayoutPanel2);
             this.panel13.Controls.Add(this.flowLayoutPanel4);
-            this.panel13.Controls.Add(this.flowLayoutPanel1);
             this.panel13.Controls.Add(this.flowLayoutPanel3);
             this.panel13.Location = new System.Drawing.Point(16, 43);
             this.panel13.Name = "panel13";
@@ -641,49 +635,6 @@
             this.NoAutoDriverButton.UseVisualStyleBackColor = true;
             this.NoAutoDriverButton.Click += new System.EventHandler(this.NoAutoDriverButton_Click);
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel1.Controls.Add(this.AutoHoursonoff);
-            this.flowLayoutPanel1.Controls.Add(this.YesAutoHourButton);
-            this.flowLayoutPanel1.Controls.Add(this.NoAutoHourButton);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(255, 87);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(165, 64);
-            this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // AutoHoursonoff
-            // 
-            this.AutoHoursonoff.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.AutoHoursonoff.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AutoHoursonoff.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AutoHoursonoff.Location = new System.Drawing.Point(3, 3);
-            this.AutoHoursonoff.Name = "AutoHoursonoff";
-            this.AutoHoursonoff.Size = new System.Drawing.Size(103, 15);
-            this.AutoHoursonoff.TabIndex = 12;
-            this.AutoHoursonoff.Text = "Auto Adjust Hours:";
-            this.AutoHoursonoff.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // YesAutoHourButton
-            // 
-            this.YesAutoHourButton.Location = new System.Drawing.Point(3, 24);
-            this.YesAutoHourButton.Name = "YesAutoHourButton";
-            this.YesAutoHourButton.Size = new System.Drawing.Size(75, 23);
-            this.YesAutoHourButton.TabIndex = 15;
-            this.YesAutoHourButton.Text = "Enable";
-            this.YesAutoHourButton.UseVisualStyleBackColor = true;
-            this.YesAutoHourButton.Click += new System.EventHandler(this.YesAutoHourButton_Click);
-            // 
-            // NoAutoHourButton
-            // 
-            this.NoAutoHourButton.Location = new System.Drawing.Point(84, 24);
-            this.NoAutoHourButton.Name = "NoAutoHourButton";
-            this.NoAutoHourButton.Size = new System.Drawing.Size(75, 23);
-            this.NoAutoHourButton.TabIndex = 16;
-            this.NoAutoHourButton.Text = "Disable";
-            this.NoAutoHourButton.UseVisualStyleBackColor = true;
-            this.NoAutoHourButton.Click += new System.EventHandler(this.NoAutoHourButton_Click);
-            // 
             // flowLayoutPanel3
             // 
             this.flowLayoutPanel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -771,7 +722,7 @@
             this.SearchTab.Location = new System.Drawing.Point(4, 22);
             this.SearchTab.Name = "SearchTab";
             this.SearchTab.Padding = new System.Windows.Forms.Padding(3);
-            this.SearchTab.Size = new System.Drawing.Size(1147, 464);
+            this.SearchTab.Size = new System.Drawing.Size(1147, 488);
             this.SearchTab.TabIndex = 2;
             this.SearchTab.Text = "Search/Cortana/Spotlight";
             this.SearchTab.Click += new System.EventHandler(this.SearchTab_Click);
@@ -1145,7 +1096,7 @@
             this.TelemTab.Location = new System.Drawing.Point(4, 22);
             this.TelemTab.Name = "TelemTab";
             this.TelemTab.Padding = new System.Windows.Forms.Padding(3);
-            this.TelemTab.Size = new System.Drawing.Size(1147, 464);
+            this.TelemTab.Size = new System.Drawing.Size(1147, 488);
             this.TelemTab.TabIndex = 4;
             this.TelemTab.Text = "Telemetry and Data Sharing";
             // 
@@ -1320,7 +1271,7 @@
             this.FeatAppTab.Location = new System.Drawing.Point(4, 22);
             this.FeatAppTab.Name = "FeatAppTab";
             this.FeatAppTab.Padding = new System.Windows.Forms.Padding(3);
-            this.FeatAppTab.Size = new System.Drawing.Size(1147, 464);
+            this.FeatAppTab.Size = new System.Drawing.Size(1147, 488);
             this.FeatAppTab.TabIndex = 5;
             this.FeatAppTab.Text = "Optional Features and Built-in Apps ";
             // 
@@ -1614,14 +1565,14 @@
             this.tableLayoutPanel3.ColumnCount = 3;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 396F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
             this.tableLayoutPanel3.Controls.Add(this.SysHealthLinksBox, 2, 0);
             this.tableLayoutPanel3.Controls.Add(this.sfcscanButton, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.dismScanButton, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.dismFixButton, 0, 2);
             this.tableLayoutPanel3.Controls.Add(this.sfcfixButton, 1, 2);
             this.tableLayoutPanel3.Controls.Add(this.DismOutput, 0, 1);
-            this.tableLayoutPanel3.Controls.Add(this.richTextBox3, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.SFCOutput, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.panel1, 2, 1);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 42);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -1636,7 +1587,7 @@
             // 
             this.SysHealthLinksBox.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.SysHealthLinksBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.SysHealthLinksBox.Location = new System.Drawing.Point(736, 4);
+            this.SysHealthLinksBox.Location = new System.Drawing.Point(732, 4);
             this.SysHealthLinksBox.Name = "SysHealthLinksBox";
             this.SysHealthLinksBox.Size = new System.Drawing.Size(381, 22);
             this.SysHealthLinksBox.TabIndex = 7;
@@ -1644,36 +1595,39 @@
             // 
             // sfcscanButton
             // 
-            this.sfcscanButton.Location = new System.Drawing.Point(370, 4);
+            this.sfcscanButton.Location = new System.Drawing.Point(368, 4);
             this.sfcscanButton.Name = "sfcscanButton";
-            this.sfcscanButton.Size = new System.Drawing.Size(359, 22);
+            this.sfcscanButton.Size = new System.Drawing.Size(357, 22);
             this.sfcscanButton.TabIndex = 1;
             this.sfcscanButton.Text = "Scan with System File Checker";
             this.sfcscanButton.UseVisualStyleBackColor = true;
+            this.sfcscanButton.Click += new System.EventHandler(this.sfcscanButton_Click);
             // 
             // dismScanButton
             // 
             this.dismScanButton.Location = new System.Drawing.Point(4, 4);
             this.dismScanButton.Name = "dismScanButton";
-            this.dismScanButton.Size = new System.Drawing.Size(359, 22);
+            this.dismScanButton.Size = new System.Drawing.Size(357, 22);
             this.dismScanButton.TabIndex = 0;
             this.dismScanButton.Text = "Scan System With DISM";
             this.dismScanButton.UseVisualStyleBackColor = true;
+            this.dismScanButton.Click += new System.EventHandler(this.dismScanButton_Click);
             // 
             // dismFixButton
             // 
             this.dismFixButton.Location = new System.Drawing.Point(4, 384);
             this.dismFixButton.Name = "dismFixButton";
-            this.dismFixButton.Size = new System.Drawing.Size(359, 22);
+            this.dismFixButton.Size = new System.Drawing.Size(357, 22);
             this.dismFixButton.TabIndex = 2;
             this.dismFixButton.Text = "Attempt To Fix Issues";
             this.dismFixButton.UseVisualStyleBackColor = true;
+            this.dismFixButton.Click += new System.EventHandler(this.dismFixButton_Click);
             // 
             // sfcfixButton
             // 
-            this.sfcfixButton.Location = new System.Drawing.Point(370, 384);
+            this.sfcfixButton.Location = new System.Drawing.Point(368, 384);
             this.sfcfixButton.Name = "sfcfixButton";
-            this.sfcfixButton.Size = new System.Drawing.Size(359, 22);
+            this.sfcfixButton.Size = new System.Drawing.Size(357, 22);
             this.sfcfixButton.TabIndex = 3;
             this.sfcfixButton.Text = "Attempt To Fix Issues";
             this.sfcfixButton.UseVisualStyleBackColor = true;
@@ -1682,25 +1636,25 @@
             // 
             this.DismOutput.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.DismOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.DismOutput.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DismOutput.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DismOutput.ForeColor = System.Drawing.SystemColors.Window;
             this.DismOutput.Location = new System.Drawing.Point(4, 33);
             this.DismOutput.Name = "DismOutput";
-            this.DismOutput.Size = new System.Drawing.Size(359, 344);
+            this.DismOutput.Size = new System.Drawing.Size(357, 344);
             this.DismOutput.TabIndex = 4;
             this.DismOutput.Text = "Here will be output from dism, most likely to change from a richtextbox";
             // 
-            // richTextBox3
+            // SFCOutput
             // 
-            this.richTextBox3.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox3.ForeColor = System.Drawing.SystemColors.Window;
-            this.richTextBox3.Location = new System.Drawing.Point(370, 33);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(359, 344);
-            this.richTextBox3.TabIndex = 5;
-            this.richTextBox3.Text = "Here will be output from system file checker, most likely to change from a richte" +
+            this.SFCOutput.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.SFCOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.SFCOutput.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SFCOutput.ForeColor = System.Drawing.SystemColors.Window;
+            this.SFCOutput.Location = new System.Drawing.Point(368, 33);
+            this.SFCOutput.Name = "SFCOutput";
+            this.SFCOutput.Size = new System.Drawing.Size(357, 344);
+            this.SFCOutput.TabIndex = 5;
+            this.SFCOutput.Text = "Here will be output from system file checker, most likely to change from a richte" +
     "xtbox";
             // 
             // panel1
@@ -1708,7 +1662,7 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.OpenSysRestore);
             this.panel1.Controls.Add(this.OpenResetPC);
-            this.panel1.Location = new System.Drawing.Point(736, 33);
+            this.panel1.Location = new System.Drawing.Point(732, 33);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(381, 344);
             this.panel1.TabIndex = 6;
@@ -1762,7 +1716,7 @@
             this.SecurityTab.Location = new System.Drawing.Point(4, 22);
             this.SecurityTab.Name = "SecurityTab";
             this.SecurityTab.Padding = new System.Windows.Forms.Padding(3);
-            this.SecurityTab.Size = new System.Drawing.Size(1147, 464);
+            this.SecurityTab.Size = new System.Drawing.Size(1147, 488);
             this.SecurityTab.TabIndex = 7;
             this.SecurityTab.Text = "Security/Defender";
             // 
@@ -3539,8 +3493,6 @@
             this.flowLayoutPanel2.PerformLayout();
             this.flowLayoutPanel4.ResumeLayout(false);
             this.flowLayoutPanel4.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
             this.flowLayoutPanel3.ResumeLayout(false);
             this.flowLayoutPanel3.PerformLayout();
             this.UpdateOverFlow.ResumeLayout(false);
@@ -3707,7 +3659,6 @@
         private System.Windows.Forms.TextBox AutoDriverOnOff;
         private System.Windows.Forms.RichTextBox NoBadInfoBox;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox AutoHoursonoff;
         private System.Windows.Forms.TextBox CortanaOnOff;
         private System.Windows.Forms.TextBox SearchOnOff;
         private System.Windows.Forms.TextBox CortanaOnline;
@@ -3724,7 +3675,7 @@
         private System.Windows.Forms.Button dismFixButton;
         private System.Windows.Forms.Button sfcfixButton;
         private System.Windows.Forms.RichTextBox DismOutput;
-        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox SFCOutput;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button OpenSysRestore;
         private System.Windows.Forms.Button OpenResetPC;
@@ -3767,8 +3718,6 @@
         private System.Windows.Forms.Button YesAutoMaintButton;
         private System.Windows.Forms.Button NoAutoDriverButton;
         private System.Windows.Forms.Button YesAutoDriverButton;
-        private System.Windows.Forms.Button NoAutoHourButton;
-        private System.Windows.Forms.Button YesAutoHourButton;
         private System.Windows.Forms.Button NoUpdateButton;
         private System.Windows.Forms.Button YesUpdateButton;
         private System.Windows.Forms.Button OffCortanaButton;
@@ -3788,7 +3737,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.TextBox NoSchBox;
         private System.Windows.Forms.FlowLayoutPanel telem3flow;
         private System.Windows.Forms.TextBox ConUserOnOffBox;

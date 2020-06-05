@@ -366,6 +366,18 @@
     <Content Include="assets\7\SettingsMisc\YesAdmin.bat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="assets\5\DISMFix.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\5\DISMScan.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\1\AutoHoursOff.reg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\1\AutoHoursOn.reg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -381,7 +393,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\4\" />
-    <Folder Include="assets\5\" />
     <Folder Include="assets\8\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
