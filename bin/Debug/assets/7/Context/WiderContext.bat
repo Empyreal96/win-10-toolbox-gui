@@ -1,1 +1,0 @@
-powershell.exe -command "& {Start-Process cmd -ArgumentList '/s,/c,REG ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\FlightedFeatures" /V ImmersiveContextMenu /T REG_DWORD /D 1 /F' -Verb runAs}"

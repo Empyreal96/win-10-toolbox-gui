@@ -1,4 +1,8 @@
 # Windows 10 Toolbox GUI
+UPDATE: Total re write.. built from scratch as the previous gui was trash..
+
+
+
 This is no where near finished, but it is the same concept as my Batch Script Toolbox, but it is incorporated 
 with a basic Visual Studio C# App.
 

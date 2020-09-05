@@ -1,1 +1,0 @@
-powershell DISM /Online /Cleanup-Image /RestoreHealth
