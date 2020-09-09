@@ -9,6 +9,5 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/winlogo.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("winlogo.png")]
 
 

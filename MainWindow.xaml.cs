@@ -17,6 +17,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
 using System.Runtime.InteropServices;
+using System.Runtime.Remoting.Channels;
 
 namespace Windows10ToolboxModern
 {
@@ -40,7 +41,7 @@ namespace Windows10ToolboxModern
 
         }
 
-       
+
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             Process process = new Process();
@@ -66,7 +67,7 @@ namespace Windows10ToolboxModern
             UpdateTextBox.Text = process.StandardOutput.ReadToEnd();
             process.WaitForExit();
         }
-      private void UpdOn_Click(object sender, RoutedEventArgs e)
+        private void UpdOn_Click(object sender, RoutedEventArgs e)
         {
             System.Diagnostics.Process.Start(@"Assets\WinUpdate\YesUpdateService.bat");
         }
@@ -126,6 +127,93 @@ namespace Windows10ToolboxModern
             System.Diagnostics.Process.Start(@"Assets\SearchCortana\CortanaOffline.bat");
         }
 
+        private void SpotWallOff_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\WinSpotlight\NoWall.bat");
+        }
+        private void SpotWallOn_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\WinSpotlight\YesWall.bat");
+        }
+        private void FactsOn_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\WinSpotlight\YesFacts.bat");
+        }
+        private void FactsOff_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\WinSpotlight\Nofacts.bat");
+        }
+
+        private void SpotOn_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\WinSpotlight\YesSpot.bat");
+        }
+        private void SpotOff_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\WinSpotlight\NoSpot.bat");
+        }
+        private void BackupSpot_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\WinSpotlight\WallpaperBackup.bat");
+        }
+
+        private void UninstallUWP_Click(object sender, RoutedEventArgs e)
+        {
+            // System.Diagnostics.Process.Start(@"./Assets/ProgServ/NoBloat.bat");
+            Process process = new Process();
+            const string nouwp = "./Assets/ProgServ/NoBloat.bat";
+            process.StartInfo.CreateNoWindow = true;
+            process.StartInfo.FileName = nouwp;
+            process.StartInfo.UseShellExecute = false;
+            process.StartInfo.RedirectStandardOutput = true;
+            process.Start();
+            textBox3.Text = process.StandardOutput.ReadToEnd();
+            process.WaitForExit();
+        }
+
+        private void textBox2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void UpdateTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+        private void WinFeat_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"optionalfeatures");
+        }
+
+        private void WordpadBtn_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\ProgServ\Wordpad.bat");
+        }
+
+        private void GPEditBtn_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\ProgServ\gpinstaller.bat");
+        }
+        private void PhotoViewer_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\ProgServ\photoviewer.bat");
+        }
+        private void TaskMan_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\ProgServ\TaskMan.bat");
+        }
+        private void Calc_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\ProgServ\Calc.bat");
+        }
+        private void MSEntertain_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\ProgServ\MSEntertain.bat");
+        }
+        private void ViewEntertain_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
-    }
+}
 

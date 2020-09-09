@@ -1,3 +1,4 @@
+@echo off
 powershell.exe "Get-AppxPackage *Microsoft.BingNews* | Remove-AppxPackage"
 powershell.exe "Get-AppxPackage *Microsoft.GetHelp* | Remove-AppxPackage"
 powershell.exe "Get-AppxPackage *Microsoft.Getstarted* | Remove-AppxPackage"
@@ -22,3 +23,4 @@ powershell.exe "Get-AppxPackage *Microsoft.XboxIdentityProvider* | Remove-AppxPa
 powershell.exe "Get-AppxPackage *Microsoft.XboxSpeechToTextOverlay* | Remove-AppxPackage"
 powershell.exe "Get-AppxPackage *Microsoft.ZuneMusic* | Remove-AppxPackage"
 powershell.exe "Get-AppxPackage *Microsoft.ZuneVideo* | Remove-AppxPackage"
+echo Done! Any built-in UWP Apps listed before hopefully have been removed!
