@@ -232,18 +232,20 @@ E:\Windows10ToolboxModern\bin\Debug\Assets\ProgServ\Calc.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\ProgServ\MSEntertain.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\ProgServ\TaskMan.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\ProgServ\Wordpad.bat
-E:\Windows10ToolboxModern\bin\Debug\Windows10ToolboxModern.exe
-E:\Windows10ToolboxModern\bin\Debug\Windows10ToolboxModern.pdb
 E:\Windows10ToolboxModern\bin\Debug\FirstFloor.ModernUI.dll
 E:\Windows10ToolboxModern\bin\Debug\FirstFloor.ModernUI.xml
 E:\Windows10ToolboxModern\obj\Debug\MainWindow.baml
 E:\Windows10ToolboxModern\obj\Debug\App.baml
 E:\Windows10ToolboxModern\obj\Debug\MainWindow.g.cs
 E:\Windows10ToolboxModern\obj\Debug\App.g.cs
-E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern_Content.g.cs
-E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern_MarkupCompile.cache
-E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.g.resources
 E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.csproj.CoreCompileInputs.cache
 E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.csproj.CopyComplete
-E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.exe
-E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.pdb
+E:\Windows10ToolboxModern\bin\Debug\Assets\ProgServ\routinesrv.bat
+E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.csprojAssemblyReference.cache
+E:\Windows10ToolboxModern\bin\Debug\Windows 10 Toolbox.exe
+E:\Windows10ToolboxModern\bin\Debug\Windows 10 Toolbox.pdb
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox_Content.g.cs
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox_MarkupCompile.cache
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.g.resources
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.exe
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.pdb

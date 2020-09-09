@@ -58,7 +58,7 @@ namespace Windows10ToolboxModern {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/Windows10ToolboxModern;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Windows 10 Toolbox;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

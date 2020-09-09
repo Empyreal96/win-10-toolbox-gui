@@ -214,6 +214,14 @@ namespace Windows10ToolboxModern
         {
 
         }
+        private void DisableServ_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\ProgServ\routinesrv.bat");
+        }
+        private void ViewSrv_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
 
