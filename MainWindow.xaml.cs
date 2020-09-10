@@ -212,7 +212,9 @@ namespace Windows10ToolboxModern
         }
         private void ViewEntertain_Click(object sender, RoutedEventArgs e)
         {
-
+            MSEntWindow subWindow = new MSEntWindow();
+            subWindow.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            subWindow.Show();
         }
         private void DisableServ_Click(object sender, RoutedEventArgs e)
         {
@@ -220,7 +222,29 @@ namespace Windows10ToolboxModern
         }
         private void ViewSrv_Click(object sender, RoutedEventArgs e)
         {
-
+            ServWindow subWindow = new ServWindow();
+            subWindow.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            subWindow.Show();
+        }
+        private void yesdata_click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\YesTelemetry.bat");
+        }
+        private void nodata_click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\NoTelemetry.bat");
+        }
+        private void conuseron_click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\YesConUser.bat");
+        }
+        private void conuseroff_click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\NoConUser.bat");
+        }
+        private void NoSch_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\RemSchTasks.bat");
         }
     }
 }

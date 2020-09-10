@@ -249,3 +249,20 @@ E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox_MarkupCompile.cache
 E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.g.resources
 E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.exe
 E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.pdb
+E:\Windows10ToolboxModern\obj\Debug\ServWindow.g.cs
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox_MarkupCompile.lref
+E:\Windows10ToolboxModern\obj\Debug\ServWindow.baml
+E:\Windows10ToolboxModern\obj\Debug\MSEntWindow.g.cs
+E:\Windows10ToolboxModern\obj\Debug\MSEntWindow.baml
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\disableapplaunch.bat
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\enableapplaunch.bat
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\noadID.bat
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\noclipboard.bat
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\nokeylog.bat
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\nothirdappads.bat
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\nowifisense.bat
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\yesadID.bat
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\yesclipboard.bat
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\yeskeylog.bat
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\yesthirdappads.bat
+E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\yeswifisense.bat
