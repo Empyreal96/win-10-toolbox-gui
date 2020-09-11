@@ -1,6 +1,8 @@
 
-:: 7za command line utility ::
 @echo off
+rem I encoded the Files with certutil and base64 so I could pack them without extra bloat.
+rem This script uses certutil and base64 to Decode the hash back into readable files.
+rem The zip archive was downloaded from Archive.org, 7z command line utility is used to extract the archive
 echo Extracting MS Entertainment Pack 'Best of' (credit: Archive.org)
 echo Please Wait...
 :: Auto-generated batch file by ExeToBat ::

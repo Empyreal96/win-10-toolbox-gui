@@ -1,3 +1,4 @@
+rem This script will remove any Scheduled Tasks to do with Telemetry
 schtasks /delete /F /TN "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser"
 schtasks /delete /F /TN "Microsoft\Windows\Application Experience\ProgramDataUpdater"
 schtasks /delete /F /TN "Microsoft\Windows\Autochk\Proxy"

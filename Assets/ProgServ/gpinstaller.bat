@@ -1,5 +1,6 @@
 @echo off
 ::This tweak is thanks to MajorGeeks
+rem This script installs Group Policy Editor on Windows 10 HOME using Windows Servicing Components
 pushd "%~dp0" 
 
 dir /b %SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum >List.txt 

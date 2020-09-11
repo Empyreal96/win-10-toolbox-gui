@@ -1,3 +1,4 @@
+rem This disables User Data Collection with Registry Entry modifications
 sc.exe config DiagTrack start=auto
 sc.exe start DiagTrack
 sc.exe config dmwappushsvc start=auto

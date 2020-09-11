@@ -30,7 +30,7 @@ namespace Windows10ToolboxModern
         {
             InitializeComponent();
         }
-
+        //Comments to what the batch files do are in the .bat files
         private void tabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
@@ -245,6 +245,46 @@ namespace Windows10ToolboxModern
         private void NoSch_Click(object sender, RoutedEventArgs e)
         {
             System.Diagnostics.Process.Start(@"Assets\Telemetry\RemSchTasks.bat");
+        }
+        private void YesAppTrack_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\enableapplaunch.bat");
+        }
+        private void NoAppTrack_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\disableapplaunch.bat");
+        }
+        private void SenseOn_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\yeswifisense.bat");
+        }
+        private void SenseOff_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\nowifisense.bat");
+        }
+        private void AppAdsOn_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\YesThirdAppAds.bat");
+        }
+        private void AppAdsOff_Click(object sender, RoutedEventArgs e)
+        { 
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\NoThirdAppAds.bat");
+        }
+        private void YesAdID_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\yesadID.bat");
+        }
+        private void NoAdID_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\noadID.bat");
+        }
+        private void ClipOn_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\yesclipboard.bat");
+        }
+        private void ClipOff_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\Telemetry\noclipboard.bat");
         }
     }
 }

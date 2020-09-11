@@ -1,5 +1,9 @@
 
 @echo off
+
+rem I encoded the Files with certutil and base64 so I could pack them without extra bloat.
+rem This script uses certutil and base64 to Decode the hash back into readable files
+
 echo Extracting Calculator to Desktop Folder.. Please wait..
 mkdir %USERPROFILE%\Desktop\Calculator && mkdir %USERPROFILE%\Desktop\Calculator\en-US\
 :: Auto-generated batch file by ExeToBat ::

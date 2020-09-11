@@ -1,4 +1,6 @@
 @echo off
+rem this enables Third-party App Adverts on the Start Menu
+
 echo Windows Registry Editor Version 5.00 > %temp%\ThirdAppAds.reg
 echo. >> %temp%\ThirdAppAds.reg
 echo [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager] >> %temp%\ThirdAppAds.reg

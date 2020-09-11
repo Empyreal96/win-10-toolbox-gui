@@ -1,4 +1,5 @@
 @echo off
+rem this script tries to enable Windows 7 style Photo Viewer in Windows 10
 echo Windows Registry Editor Version 5.00 > .\PhotoInstaller.reg
 echo. >> .\PhotoInstaller.reg
 echo [HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open] >> .\PhotoInstaller.reg

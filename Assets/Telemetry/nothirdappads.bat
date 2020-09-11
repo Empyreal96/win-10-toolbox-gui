@@ -1,4 +1,5 @@
 @echo off
+rem this disabled Third-party App Adverts on the Start Menu
 echo Windows Registry Editor Version 5.00 > %temp%\NoThirdAppAds.reg
 echo. >> %temp%\NoThirdAppAds.reg
 echo [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager] >> %temp%\NoThirdAppAds.reg

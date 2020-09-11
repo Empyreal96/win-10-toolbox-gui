@@ -1,4 +1,5 @@
 @echo off
+rem this script goes through and disables Services not usually used by most users. They may restart on reboot
 echo Some Services will not exist or is already disabled
 echo depending on Windows Build version.
 

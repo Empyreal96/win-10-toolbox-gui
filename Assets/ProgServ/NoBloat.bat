@@ -1,4 +1,5 @@
 @echo off
+rem This script goes through Installed Appx Packages and removes the ones listed below
 powershell.exe "Get-AppxPackage *Microsoft.BingNews* | Remove-AppxPackage"
 powershell.exe "Get-AppxPackage *Microsoft.GetHelp* | Remove-AppxPackage"
 powershell.exe "Get-AppxPackage *Microsoft.Getstarted* | Remove-AppxPackage"
