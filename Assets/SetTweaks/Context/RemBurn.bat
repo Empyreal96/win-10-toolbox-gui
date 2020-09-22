@@ -1,7 +1,8 @@
-echo Windows Registry Editor Version 5.00 > .\assets\temp\RemoveBurn.reg
-echo. >> .\assets\temp\RemoveBurn.reg
-echo [-HKEY_CLASSES_ROOT\Windows.IsoFile\shell\burn] >> .\assets\temp\RemoveBurn.reg
-echo. >> .\assets\temp\RemoveBurn.reg
-reg import .\assets\temp\RemoveBurn.reg
+rem This script modifies the registry to remove Burn disc image on the Context menu
+echo Windows Registry Editor Version 5.00 > %temp%\RemoveBurn.reg
+echo. >> %temp%\RemoveBurn.reg
+echo [-HKEY_CLASSES_ROOT\Windows.IsoFile\shell\burn] >> %temp%\RemoveBurn.reg
+echo. >> %temp%\RemoveBurn.reg
+reg import %temp%\RemoveBurn.reg
 pause
-del .\assets\temp\RemoveBurn.reg
+del %temp%\RemoveBurn.reg

@@ -286,6 +286,20 @@ namespace Windows10ToolboxModern
         {
             System.Diagnostics.Process.Start(@"Assets\Telemetry\noclipboard.bat");
         }
+
+        private void DISMScan_click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\SysHealth\DISMScan.bat");
+        }
+        private void DISMFix_click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\SysHealth\DISMFix.bat");
+        }
+        private void SFCScan_click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"Assets\SysHealth\SFCScan.bat");
+        }
+        
     }
 }
 

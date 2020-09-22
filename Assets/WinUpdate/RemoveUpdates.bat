@@ -1,4 +1,5 @@
 @echo off
+rem This script will go through and remove any of the installed Updates that are known to cause some users issues.. PROCEED WITH CAUTION
 wusa /uninstall /kb:2902907 /norestart /quiet
 ::KB 2922324 (https://support.microsoft.com/en-us/kb/2922324)
 wusa /uninstall /kb:2922324 /norestart /quiet

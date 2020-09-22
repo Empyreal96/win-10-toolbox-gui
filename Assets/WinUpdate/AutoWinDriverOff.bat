@@ -1,4 +1,5 @@
 @echo off
+rem This script modifies the Registry to prevent Windows Update to Automatically Download Drivers
 echo Windows Registry Editor Version 5.00 > %USERPROFILE%\AppData\Local\Temp\AutoWinDriverOff.reg
 echo. >> %USERPROFILE%\AppData\Local\Temp\AutoWinDriverOff.reg
 echo [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device\Update] >> %USERPROFILE%\AppData\Local\Temp\AutoWinDriverOff.reg

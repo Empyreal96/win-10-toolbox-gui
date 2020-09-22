@@ -1,4 +1,5 @@
 @echo off
+rem This enables Update services
 sc.exe config wuauserv start=auto
 sc.exe start wuauserv
 sc.exe config BITS start=auto

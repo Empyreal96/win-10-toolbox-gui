@@ -1,13 +1,14 @@
-echo Windows Registry Editor Version 5.00 > .\assets\temp\AddKillTasks.reg
-echo. >> .\assets\temp\AddKillTasks.reg
-echo [HKEY_CLASSES_ROOT\DesktopBackground\Shell\KillNRTasks] >> .\assets\temp\AddKillTasks.reg
-echo "icon"="taskmgr.exe,-30651" >> .\assets\temp\AddKillTasks.reg
-echo "MUIverb"="Kill all not responding tasks" >> .\assets\temp\AddKillTasks.reg
-echo "Position"="Top" >> .\assets\temp\AddKillTasks.reg
-echo. >> .\assets\temp\AddKillTasks.reg
-echo [HKEY_CLASSES_ROOT\DesktopBackground\Shell\KillNRTasks\command] >> .\assets\temp\AddKillTasks.reg
-echo @="CMD.exe /C taskkill.exe /f /fi \"status eq Not Responding\" & Pause" >> .\assets\temp\AddKillTasks.reg
-echo. >> .\assets\temp\AddKillTasks.reg
-reg import .\assets\temp\AddKillTasks.reg
+rem This script modifies the registry to add Kill not responding tasks on the Context menu
+echo Windows Registry Editor Version 5.00 > %temp%\AddKillTasks.reg
+echo. >> %temp%\AddKillTasks.reg
+echo [HKEY_CLASSES_ROOT\DesktopBackground\Shell\KillNRTasks] >> %temp%\AddKillTasks.reg
+echo "icon"="taskmgr.exe,-30651" >> %temp%\AddKillTasks.reg
+echo "MUIverb"="Kill all not responding tasks" >> %temp%\AddKillTasks.reg
+echo "Position"="Top" >> %temp%\AddKillTasks.reg
+echo. >> %temp%\AddKillTasks.reg
+echo [HKEY_CLASSES_ROOT\DesktopBackground\Shell\KillNRTasks\command] >> %temp%\AddKillTasks.reg
+echo @="CMD.exe /C taskkill.exe /f /fi \"status eq Not Responding\" & Pause" >> %temp%\AddKillTasks.reg
+echo. >> %temp%\AddKillTasks.reg
+reg import %temp%\AddKillTasks.reg
 pause
-del .\assets\temp\AddKillTasks.reg
+del %temp%\AddKillTasks.reg

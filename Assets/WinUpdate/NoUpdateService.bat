@@ -1,4 +1,5 @@
 @echo off
+rem This script simply Disables Windows Update Services (This will affect MS Store)
 sc.exe stop wuauserv
 sc.exe config wuauserv start=disabled
 sc.exe stop BITS

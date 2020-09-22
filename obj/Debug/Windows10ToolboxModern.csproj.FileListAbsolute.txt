@@ -120,12 +120,9 @@ C:\Users\mrfloaty\source\repos\Windows10ToolboxModern\obj\Debug\Windows10Toolbox
 C:\Users\mrfloaty\source\repos\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.exe
 C:\Users\mrfloaty\source\repos\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.pdb
 C:\Users\mrfloaty\source\repos\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.csprojAssemblyReference.cache
+E:\Windows10ToolboxModern\bin\Debug\Assets\SysHealth\SFCScan.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\winlogo.png
 E:\Windows10ToolboxModern\bin\Debug\Assets\misc\OSInfo.bat
-E:\Windows10ToolboxModern\bin\Debug\Assets\WinUpdate\AutoHoursOff.bat
-E:\Windows10ToolboxModern\bin\Debug\Assets\WinUpdate\AutoHoursOn.bat
-E:\Windows10ToolboxModern\bin\Debug\Assets\WinUpdate\AutoMaintOff.bat
-E:\Windows10ToolboxModern\bin\Debug\Assets\WinUpdate\AutoMaintOn.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\WinUpdate\AutoWinDriverOff.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\WinUpdate\AutoWinDriverOn.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\WinUpdate\NoUpdateService.bat
@@ -185,7 +182,6 @@ E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\NoCAB.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\NoClassicPerson.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\NoCMD need to add working.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\NoOwn.bat
-E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\NormalContext.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\NoScanDefend.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\RemAntivirus.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\RemBurn.bat
@@ -193,11 +189,8 @@ E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\RemDelFolder.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\RemKillTasks.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\RemSFC.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\RemUnblock.bat
-E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Context\WiderContext.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Explorer\AutoClearThumbNo.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Explorer\AutoClearThumbYes.bat
-E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Explorer\AutoHideScroll.bat
-E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Explorer\AutoShowScroll.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Explorer\BuildVerOffDesktop.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Explorer\BuildVerOnDesktop.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\SetTweaks\Explorer\FixScale.bat
@@ -232,28 +225,7 @@ E:\Windows10ToolboxModern\bin\Debug\Assets\ProgServ\Calc.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\ProgServ\MSEntertain.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\ProgServ\TaskMan.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\ProgServ\Wordpad.bat
-E:\Windows10ToolboxModern\bin\Debug\FirstFloor.ModernUI.dll
-E:\Windows10ToolboxModern\bin\Debug\FirstFloor.ModernUI.xml
-E:\Windows10ToolboxModern\obj\Debug\MainWindow.baml
-E:\Windows10ToolboxModern\obj\Debug\App.baml
-E:\Windows10ToolboxModern\obj\Debug\MainWindow.g.cs
-E:\Windows10ToolboxModern\obj\Debug\App.g.cs
-E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.csproj.CoreCompileInputs.cache
-E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.csproj.CopyComplete
 E:\Windows10ToolboxModern\bin\Debug\Assets\ProgServ\routinesrv.bat
-E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.csprojAssemblyReference.cache
-E:\Windows10ToolboxModern\bin\Debug\Windows 10 Toolbox.exe
-E:\Windows10ToolboxModern\bin\Debug\Windows 10 Toolbox.pdb
-E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox_Content.g.cs
-E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox_MarkupCompile.cache
-E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.g.resources
-E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.exe
-E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.pdb
-E:\Windows10ToolboxModern\obj\Debug\ServWindow.g.cs
-E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox_MarkupCompile.lref
-E:\Windows10ToolboxModern\obj\Debug\ServWindow.baml
-E:\Windows10ToolboxModern\obj\Debug\MSEntWindow.g.cs
-E:\Windows10ToolboxModern\obj\Debug\MSEntWindow.baml
 E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\disableapplaunch.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\enableapplaunch.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\noadID.bat
@@ -266,3 +238,23 @@ E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\yesclipboard.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\yeskeylog.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\yesthirdappads.bat
 E:\Windows10ToolboxModern\bin\Debug\Assets\Telemetry\yeswifisense.bat
+E:\Windows10ToolboxModern\bin\Debug\Windows 10 Toolbox.exe
+E:\Windows10ToolboxModern\bin\Debug\Windows 10 Toolbox.pdb
+E:\Windows10ToolboxModern\bin\Debug\FirstFloor.ModernUI.dll
+E:\Windows10ToolboxModern\bin\Debug\FirstFloor.ModernUI.xml
+E:\Windows10ToolboxModern\obj\Debug\MainWindow.baml
+E:\Windows10ToolboxModern\obj\Debug\App.baml
+E:\Windows10ToolboxModern\obj\Debug\MainWindow.g.cs
+E:\Windows10ToolboxModern\obj\Debug\MSEntWindow.g.cs
+E:\Windows10ToolboxModern\obj\Debug\ServWindow.g.cs
+E:\Windows10ToolboxModern\obj\Debug\App.g.cs
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox_Content.g.cs
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox_MarkupCompile.cache
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox_MarkupCompile.lref
+E:\Windows10ToolboxModern\obj\Debug\MSEntWindow.baml
+E:\Windows10ToolboxModern\obj\Debug\ServWindow.baml
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.g.resources
+E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.csproj.CoreCompileInputs.cache
+E:\Windows10ToolboxModern\obj\Debug\Windows10ToolboxModern.csproj.CopyComplete
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.exe
+E:\Windows10ToolboxModern\obj\Debug\Windows 10 Toolbox.pdb

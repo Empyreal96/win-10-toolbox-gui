@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/syshealth/sfcscan.bat")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/winlogo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("winlogo.ico")]
 
